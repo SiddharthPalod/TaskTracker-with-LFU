@@ -1,0 +1,5 @@
+I have added LFU Caching to improve lookup speed here are results for 
+Dataset: tasks=5000, lookups=2000, cacheCap=200
+A) JSON load per lookup: 12683.31 ms  (checksum 1362990)
+B) LFU cache getTask(): 10.09 ms  (checksum 1362990)
+Speedup: 1257.20x

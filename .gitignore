@@ -1,0 +1,9 @@
+/out/
+/*.class
+data/*.ndjson
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
